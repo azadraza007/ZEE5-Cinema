@@ -1,0 +1,402 @@
+@media (min-width:968px){
+    .buy-plan{
+        text-align: center;
+    }
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        margin-top:25px;
+    }
+    
+    .h1{
+       font-size: larger;
+       font-weight: 750;
+    }
+    th, td {
+        border: 2px solid #fff;
+        text-align: left;
+        padding: 28px;
+        font-size: 18px;
+    }
+    
+    th {
+        background-color:#fff;
+        color: black;
+    }
+    
+    table {
+        border-collapse: collapse;
+        width: 80%;
+        margin: 20px auto;
+        margin-top:25px;
+    }
+    
+    .h1{
+       font-size: larger;
+       font-weight: 750;
+    }
+    th, td {
+        border: 2px solid #fff;
+        text-align: left;
+        padding: 28px;
+    }
+    
+    th {
+        background-color:#fff;
+        color: black;
+    }
+    .subscription-cards-container {
+        display: flex;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+        gap: 20px; 
+        max-width: 1200px; 
+        margin: 0 auto; 
+    }
+    .subscription-card {
+        background-color: #fff;
+        border: 1px solid black;
+        padding: 20px;
+        width: 30%; 
+        box-sizing: border-box;
+        text-align: center;
+        transition: transform 0.2s ease-in-out; 
+    }
+    .subscription-card > p{
+        font-size: 18px;
+        color: red;
+    }
+    .subscription-card >h3{
+        color: green;
+    }
+    .subscription-card:hover {
+        transform: translateY(-5px);
+    }
+    .price {
+        font-size: 1.25rem;
+        font-weight: bold;
+        color: green;
+    }
+    .price span {
+        text-decoration: line-through;
+        margin-right: 5px;
+        color: #888;
+    }
+    @media (max-width: 768px) {
+        .subscription-card {
+            width: 45%; 
+        }
+    }
+    
+    .navbar img{
+        height: 4rem;
+    }
+    .navbar{
+        width: 100%;
+        height: 5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+    
+    .img-container{
+        width: 50%;
+        display: flex;
+       align-items: center;
+    }
+    
+    .nav-links{
+        display: flex;
+        list-style: none;
+        gap: 2.5rem;
+        font-size: 1.3rem;
+        
+    }
+    .nav-action{
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        gap:3rem;
+        padding-right: 2rem;
+    }
+    .nav-btn{
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+    
+    }
+    .nav-input{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .nav-input >input{ 
+        height: 2.9rem;
+        width: 25rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+       
+    }
+    .nav-input input[type="text"] {
+        font-size: 20px;
+    }
+    
+    .navlogin-btn{
+        margin-top: -1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.9rem;
+        width: 5rem;
+        border-radius: 0.5rem;
+        font-size: 14px;
+        color: #fff;
+        background-color: black;
+    }
+    .search-icon{
+    font-size: 25px;
+    }
+    
+    @media screen and (max-width: 725px) {
+        .navbar{
+            width: 325x;
+    
+        }
+      }
+    
+      div > a {
+        text-decoration: none;
+        font-size: 20px;
+      }
+    .footer-img{
+        /* margin-top: 18px; */
+    }
+      div > p {
+        font-size: 20px;
+       border: 1px solid black;
+       border-radius: 5px;
+        
+      }
+      .img_font_icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        padding: 15px;
+      }
+    
+      .icons {
+        font-size: 25px;
+      }
+      .footer-contents {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 25px;
+      }
+      
+    .footer-last{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       margin-top: 20px;
+      }
+    
+      .trend-container{
+        display: flex;
+        width: 100%;
+      }
+      .trend-img{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      div img{
+        height: 450px;
+        padding: 15px;
+      }
+    
+      .login-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+    }
+    .login-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .login-form {
+        padding: 40px;
+        border-radius: 10px;
+        text-align: center;
+        width: 350px;
+        height: 250px;
+        display: flex;
+        flex-direction: column; 
+        align-items: center; 
+        justify-content: center; 
+    }
+    .login-input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+    .login-button {
+       border: none;
+        border-radius: 4px;
+        padding: 10px 20px;
+        font-size: 18px;
+        cursor: pointer;
+        color: #fff;
+        background-color: black;
+      }
+    .login-text {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 20px;
+      }
+      
+      
+      .login-text a {
+       
+        text-decoration: none;
+        font-weight: bold;
+        margin-left: 5px;
+      }
+      
+      .trend-container{
+        display: flex;
+        width: 100%;
+      }
+      .trend-img{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      div img{
+        height: 450px;
+        padding: 15px;
+      }
+      .signup-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 150px;
+      }
+      .sign-up-heading {
+        font-size: 24px;
+        margin-bottom: 20px;
+      }
+      .signup-form {
+        padding: 20px;
+        border-radius: 8px;
+        width: 350px;
+      }
+      .signup-input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid lightblue;
+        border-radius: 4px;
+        font-size: 16px;
+      }
+      .sign-up-button {
+        border: none;
+        border-radius: 4px;
+        padding: 10px 15px;
+        font-size: 18px;
+        cursor: pointer;
+       margin-left: 5rem;
+       color: #fff;
+          background-color: black;
+      }
+      
+      .signup-text {
+        text-align: center;
+        font-size: 20px;
+        margin-top: 10px;
+      }
+    
+      .top10-container{
+        display: flex;
+        width: 100%;
+      }
+      .top10-img{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      
+      div img{
+        height: 450px;
+        padding: 15px;
+      }
+      .top-holly-img{
+         position: relative;
+         z-index: 0;
+    
+      }
+    
+      .top-holly-btn,.fav-btn{
+       position: absolute;
+       z-index: 1;
+       border-radius: 1px;
+       bottom: 1rem;
+       width: 100%;
+       border-radius: 5px;
+        width: 50%;
+        left: 25%;
+        
+      }
+    .top-holly-btn{
+      border-radius: 5px;
+      width: 50%;
+      left: 25%;
+      border: 0;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      margin-bottom: -7px;
+    }
+      .fav-btn{
+        bottom: 2rem;
+        padding: 4px;
+        border-radius: 5px;
+        width: 50%;
+        left: 25%;
+        border: 0;
+        
+      }
+     .worldhits-container{
+        display: flex;
+        width: 100%;
+      }
+      .worldhits-img{
+        display: flex;
+        width: 100%;
+        height: 450px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+      }
+      div img{
+        height: 450px;
+        padding: 15px;
+      }
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////////////// */

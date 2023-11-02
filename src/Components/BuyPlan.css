@@ -1,0 +1,89 @@
+.buy-plan{
+    text-align: center;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    margin-top:25px;
+}
+
+.h1{
+   font-size: larger;
+   font-weight: 750;
+}
+th, td {
+    border: 2px solid #fff;
+    text-align: left;
+    padding: 28px;
+    font-size: 18px;
+}
+
+th {
+    background-color:#fff;
+    color: black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    margin-top:25px;
+}
+
+.h1{
+   font-size: larger;
+   font-weight: 750;
+}
+th, td {
+    border: 2px solid #fff;
+    text-align: left;
+    padding: 28px;
+}
+
+th {
+    background-color:#fff;
+    color: black;
+}
+.subscription-cards-container {
+    display: flex;
+    justify-content: space-between; 
+    flex-wrap: wrap;
+    gap: 20px; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+.subscription-card {
+    background-color: #fff;
+    border: 1px solid black;
+    padding: 20px;
+    width: 30%; 
+    box-sizing: border-box;
+    text-align: center;
+    transition: transform 0.2s ease-in-out; 
+}
+.subscription-card > p{
+    font-size: 18px;
+    color: red;
+}
+.subscription-card >h3{
+    color: green;
+}
+.subscription-card:hover {
+    transform: translateY(-5px);
+}
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: green;
+}
+.price span {
+    text-decoration: line-through;
+    margin-right: 5px;
+    color: #888;
+}
+@media (max-width: 768px) {
+    .subscription-card {
+        width: 45%; 
+    }
+}

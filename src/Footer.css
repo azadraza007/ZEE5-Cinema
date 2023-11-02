@@ -1,0 +1,36 @@
+ div > a {
+    text-decoration: none;
+    font-size: 20px;
+  }
+.footer-img{
+    /* margin-top: 18px; */
+}
+  div > p {
+    font-size: 20px;
+   border: 1px solid black;
+   border-radius: 5px;
+    
+  }
+  .img_font_icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+  }
+
+  .icons {
+    font-size: 25px;
+  }
+  .footer-contents {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px;
+  }
+  
+.footer-last{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+  }

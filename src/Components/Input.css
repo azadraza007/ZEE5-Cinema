@@ -1,0 +1,11 @@
+@media screen and (max-width: 600px) {
+  input{
+        width: 250px;
+    }
+  }
+  @media screen and (max-width: 325px) {
+    .nav-input{
+      display: none;
+    }
+  }
+  
